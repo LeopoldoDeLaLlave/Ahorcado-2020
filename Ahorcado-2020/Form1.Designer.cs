@@ -58,6 +58,10 @@
             this.button28 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bReiniciar = new System.Windows.Forms.Button();
+            this.labelGnadas = new System.Windows.Forms.Label();
+            this.labelPerdidas = new System.Windows.Forms.Label();
+            this.pGanadas = new System.Windows.Forms.Label();
+            this.pPerdidas = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -391,12 +395,52 @@
             this.bReiniciar.UseVisualStyleBackColor = false;
             this.bReiniciar.Click += new System.EventHandler(this.reiniciar);
             // 
+            // labelGnadas
+            // 
+            this.labelGnadas.BackColor = System.Drawing.Color.White;
+            this.labelGnadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGnadas.Location = new System.Drawing.Point(18, 670);
+            this.labelGnadas.Name = "labelGnadas";
+            this.labelGnadas.Size = new System.Drawing.Size(84, 23);
+            this.labelGnadas.TabIndex = 32;
+            this.labelGnadas.Text = "Ganadas:";
+            // 
+            // labelPerdidas
+            // 
+            this.labelPerdidas.BackColor = System.Drawing.Color.White;
+            this.labelPerdidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPerdidas.Location = new System.Drawing.Point(253, 670);
+            this.labelPerdidas.Name = "labelPerdidas";
+            this.labelPerdidas.Size = new System.Drawing.Size(84, 23);
+            this.labelPerdidas.TabIndex = 33;
+            this.labelPerdidas.Text = "Perdidas:";
+            // 
+            // pGanadas
+            // 
+            this.pGanadas.Location = new System.Drawing.Point(108, 670);
+            this.pGanadas.Name = "pGanadas";
+            this.pGanadas.Size = new System.Drawing.Size(65, 23);
+            this.pGanadas.TabIndex = 34;
+            this.pGanadas.Text = "0";
+            // 
+            // pPerdidas
+            // 
+            this.pPerdidas.Location = new System.Drawing.Point(341, 670);
+            this.pPerdidas.Name = "pPerdidas";
+            this.pPerdidas.Size = new System.Drawing.Size(65, 23);
+            this.pPerdidas.TabIndex = 35;
+            this.pPerdidas.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(429, 660);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(429, 708);
+            this.Controls.Add(this.pPerdidas);
+            this.Controls.Add(this.pGanadas);
+            this.Controls.Add(this.labelPerdidas);
+            this.Controls.Add(this.labelGnadas);
             this.Controls.Add(this.bReiniciar);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button16);
@@ -466,6 +510,10 @@
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button bReiniciar;
+        private System.Windows.Forms.Label labelGnadas;
+        private System.Windows.Forms.Label labelPerdidas;
+        private System.Windows.Forms.Label pGanadas;
+        private System.Windows.Forms.Label pPerdidas;
     }
 }
 

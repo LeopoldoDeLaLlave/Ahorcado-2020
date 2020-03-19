@@ -17,6 +17,8 @@ namespace Ahorcado_2020
     {
         String palabraOculta = "";//Palabra que hay que adivinar
         int nFallos = 0;//Cuenta el número de fallos
+        int partidasGanadas = 0;//Contador partidas ganadas
+        int partidasPerdidas = 0;//Contador partidas perdidas
         bool partidaTerminada = false;//Indica si la partida ha terminado
 
         List<Button> listaBotones = new List<Button>();//Guardamos los botones que han sido pulsados
@@ -78,6 +80,10 @@ namespace Ahorcado_2020
                     nFallos = -100;//Para el switch case
                     partidaTerminada = true;
                     bReiniciar.Visible = true;//Dejamos visible el botón reiniciar
+
+                    //Añadimos la partida ganada al marcador
+                    partidasGanadas++;
+                    pGanadas.Text = partidasGanadas.ToString();
                 }
  
             }
@@ -88,6 +94,9 @@ namespace Ahorcado_2020
                 {//Si hay  6 fallos o más la partida ha terminado
                     partidaTerminada = true;
                     bReiniciar.Visible = true;//Dejamos visible el botón reiniciar
+                    //Añadimos la partida ganada al marcador
+                    partidasPerdidas++;
+                    pPerdidas.Text = partidasPerdidas.ToString();
                     //Al perder le mostramos la palabra al usuario
                     label1.Text = "";//Dejamos en blanco el label
                     for (int i = 0; i < palabraOculta.Length; i++)//Escribimos la palabra con un espacio en cada letra
@@ -148,6 +157,7 @@ namespace Ahorcado_2020
             //Ponemos el botón de reiniciar invisible de nuevo
             bReiniciar.Visible = false;
         }
+
 
     }
 }
