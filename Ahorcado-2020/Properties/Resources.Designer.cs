@@ -63,9 +63,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap acertastetodo {
+        internal static System.Drawing.Bitmap a_ganado {
             get {
-                object obj = ResourceManager.GetObject("acertastetodo", resourceCulture);
+                object obj = ResourceManager.GetObject("a_ganado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_0 {
+        internal static System.Drawing.Bitmap a_perdido {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_0", resourceCulture);
+                object obj = ResourceManager.GetObject("a_perdido", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_01 {
+        internal static System.Drawing.Bitmap a1 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_01", resourceCulture);
+                object obj = ResourceManager.GetObject("a1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_1 {
+        internal static System.Drawing.Bitmap a2 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_1", resourceCulture);
+                object obj = ResourceManager.GetObject("a2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_2 {
+        internal static System.Drawing.Bitmap a3 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_2", resourceCulture);
+                object obj = ResourceManager.GetObject("a3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_3 {
+        internal static System.Drawing.Bitmap a4 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_3", resourceCulture);
+                object obj = ResourceManager.GetObject("a4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_4 {
+        internal static System.Drawing.Bitmap a5 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_4", resourceCulture);
+                object obj = ResourceManager.GetObject("a5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,19 +133,9 @@ namespace Ahorcado_2020.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_5 {
+        internal static System.Drawing.Bitmap a6 {
             get {
-                object obj = ResourceManager.GetObject("ahorcado_5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ahorcado_fin {
-            get {
-                object obj = ResourceManager.GetObject("ahorcado_fin", resourceCulture);
+                object obj = ResourceManager.GetObject("a6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -182,7 +182,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(40, 40);
             this.button10.TabIndex = 13;
-            this.button10.Text = "l";
+            this.button10.Text = "L";
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.teclaPulsada);
             // 
@@ -376,7 +376,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = global::Ahorcado_2020.Properties.Resources.ahorcado_0;
+            this.pictureBox1.Image = global::Ahorcado_2020.Properties.Resources.a1;
             this.pictureBox1.Location = new System.Drawing.Point(70, 115);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(286, 299);

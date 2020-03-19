@@ -60,17 +60,16 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -80,33 +79,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\ahorcado_0.png" />
+    <None Include="Resources\a_ganado.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\acertastetodo.png" />
+    <None Include="Resources\a_perdido.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_01.png" />
+    <None Include="Resources\a1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_1.png" />
+    <None Include="Resources\a2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_2.png" />
+    <None Include="Resources\a3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_4.png" />
+    <None Include="Resources\a4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_5.png" />
+    <None Include="Resources\a5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ahorcado_fin.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\ahorcado_3.png" />
-    <None Include="Resources\ahorcado_31.png" />
+    <None Include="Resources\a6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

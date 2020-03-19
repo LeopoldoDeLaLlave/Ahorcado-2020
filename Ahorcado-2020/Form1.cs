@@ -110,15 +110,15 @@ namespace Ahorcado_2020
             //Elegimos la foto correspondiente
             switch (nFallos)
             {
-                case 0: pictureBox1.Image = Properties.Resources.ahorcado_0; break;
-                case 1: pictureBox1.Image = Properties.Resources.ahorcado_1; break;
-                case 2: pictureBox1.Image = Properties.Resources.ahorcado_2; break;
-                case 3: pictureBox1.Image = Properties.Resources.ahorcado_3; break;
-                case 4: pictureBox1.Image = Properties.Resources.ahorcado_4; break;
-                case 5: pictureBox1.Image = Properties.Resources.ahorcado_5; break;
-                case 6: pictureBox1.Image = Properties.Resources.ahorcado_fin; break;
-                case -100: pictureBox1.Image = Properties.Resources.acertastetodo; break;
-                default: pictureBox1.Image = Properties.Resources.ahorcado_fin; break;
+                case 0: pictureBox1.Image = Properties.Resources.a1; break;
+                case 1: pictureBox1.Image = Properties.Resources.a2; break;
+                case 2: pictureBox1.Image = Properties.Resources.a3; break;
+                case 3: pictureBox1.Image = Properties.Resources.a4; break;
+                case 4: pictureBox1.Image = Properties.Resources.a5; break;
+                case 5: pictureBox1.Image = Properties.Resources.a6; break;
+                case 6: pictureBox1.Image = Properties.Resources.a_perdido; break;
+                case -100: pictureBox1.Image = Properties.Resources.a_ganado; break;
+                default: pictureBox1.Image = Properties.Resources.a_perdido; break;
             }
         }
 
@@ -144,7 +144,7 @@ namespace Ahorcado_2020
             guionesIniciales();
             partidaTerminada = false;
             nFallos = 0;
-            pictureBox1.Image = Properties.Resources.ahorcado_0;
+            pictureBox1.Image = Properties.Resources.a1;
 
   
             foreach (Button item in listaBotones) // Volvemos a habilitar los botones pulsados en la partida anterior
